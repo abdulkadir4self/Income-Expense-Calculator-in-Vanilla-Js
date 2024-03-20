@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>income-expense-tracker</title>
+    <link rel="stylesheet" href="income-expense-task.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2 id="head1"></h2>
+
+    <div id="div1">
+     <div class="div_a"><input type="text" id="inp1" placeholder="Amount">
+        <input type="text" id="inp2" placeholder="Name">
+        <select  id="dropdown">
+            <option value="0" selected disabled>select Category</option>
+            <option value="1">Income</option>
+            <option value="2">Expense</option>
+        </select></div>
+    <button id="btn1">ENTRY</button>
+    </div>
+
+
+    <h1 class="heading2" id="head2">Total Saving: <span id="saving"></span></h1>
+
+
+    <div id="div2">
+        <div id="income">
+            <h4 id="head3">Income</h4>
+            <table id="IN-table">
+                <tr>
+                    <td>No.</td>
+                    <td>Amount</td>
+                    <td>Item's Description</td>
+                </tr>
+                <!-- <tr>
+                    <td>1</td>
+                    <td>52152</td>
+                    <td>sdfghjkl;</td>
+                </tr> -->
+            </table>
+        <h4 id="head5"></h4>
+        </div>
+
+
+        <div id="expense">
+            <h4 id="head4">Expense</h4>
+            <table id="EX-table">
+                <tr>
+                    <td>No.</td>
+                    <td>Amount</td>
+                    <td>Item's Description</td>
+                </tr>
+                <!-- <tr>
+                    <td>1</td>
+                    <td>52152</td>
+                    <td>sdfgh;</td>
+                </tr> -->
+            </table>
+        <h4 id="head6"></h4>
+
+        </div>
+    </div>
+    <script src="income-expense-task.js"></script>
+</body>
+</html>
